@@ -26,7 +26,7 @@ function handleSubmit(event) {
 
     // Open WhatsApp with the registration details
     // Replace MANAGER_PHONE with the actual manager's phone number
-    const managerPhone = '+918792200943'; // Update this with the actual manager's phone number
+    const managerPhone = '+917892395367'; // Update this with the actual manager's phone number
     const whatsappUrl = `https://wa.me/${managerPhone}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 
