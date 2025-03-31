@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Summer Camp Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Master Class Cricket Academy,Kollegal</h1>
+         <p>    Enhance Your Game With Us</p>
+      
+        <div class="manager-info">
+            <h2>Contact us:</h2>
+            <div class="managers">
+                <div class="manager">
+                    <p>Kiran.K.S</p>
+                    <p>📞 +918792200943</p>
+                </div>
+                <div class="manager">
+                    <p>Punith.H</p>
+                    <p>📞 +919591767872</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="gallery">
+        <h2>Camp Highlights</h2>
+       
+        <div class="photo-grid">
+            <img src="https://cdn.shopify.com/s/files/1/0278/4565/6649/files/collage_1.jpg?v=1673720009" alt="Cricket Basics and Technique">
+            <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2017/10/17/617736-xi-players.jpg" alt="Fitness and Strengthening">
+            <img src="https://www.rvcj.com/wp-content/uploads/2017/10/catch-600x445.jpg" alt="Catching and Fielding Skills and Drills">
+            <img src="https://cricketgraph.com/wp-content/gallery/badlapur-cricket-academy-in-badlapur/Badlapur-Cricket-Academy-Badlapur-8.jpeg" alt="Batting  and Bowling Skills and Drills">
+            <img src="https://nwscdn.com/media/catalog/product/j/u/juniormattingfull_3.jpg" alt="Matting and Astro Turf Nets Facilities">
+            <img src="https://www.mumbailive.com/images/media/images/images_1583419009334_Malhar_mane__1_.jpeg?bg=dcbd94&crop=1280%2C853%2Cnull%2C0&fit=fill&fitToScale=h%2C1368%2C768&h=768&height=853&w=1368&width=1280" alt="Cricket Practicing">
+        </div>
+      <h2>                 Training By Professional Coaches </h2>
+    </section>
+
+    <section class="registration">
+        <h2>Enquiry Registration Form</h2>
+        <form id="registrationForm" onsubmit="handleSubmit(event)">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="5" max="25" required>
+            </div>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <div class="radio-group">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+
+            <button type="submit">Submit Registration</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

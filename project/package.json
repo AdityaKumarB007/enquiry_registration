@@ -1,0 +1,13 @@
+{
+  "name": "Master-Class-Cricket-Academy",
+  "version": "1.0.0",
+  "description": "Cricket Summer Camp Registration Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": ""
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
